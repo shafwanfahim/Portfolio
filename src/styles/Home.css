@@ -1,0 +1,11 @@
+.intro{
+    font-family: 'Montserrat', sans-serif; 
+font-style: bold; 
+} 
+
+.headerContainer p{
+        border: 4px solid rgba(214, 15, 115, 0.68);
+        border-radius: 39px;
+        transition: box-shadow 300ms ease-out;
+} 
+

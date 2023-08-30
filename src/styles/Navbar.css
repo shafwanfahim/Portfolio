@@ -24,7 +24,8 @@
   } 
   .navbar a{
     color: white; 
-    margin: 20px;
+    margin: 20px; 
+font-family: 'Montserrat', sans-serif;
   }
   
   .nav-link:hover {

@@ -1,11 +1,46 @@
-.intro{
-    font-family: 'Montserrat', sans-serif; 
-font-style: bold; 
-} 
+/* Home.css */
 
-.headerContainer p{
-        border: 4px solid rgba(214, 15, 115, 0.68);
-        border-radius: 39px;
-        transition: box-shadow 300ms ease-out;
-} 
-
+.home {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .detel {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .detel h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .detel h1 span {
+    color: red;
+  }
+  
+  .detel p {
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .images img {
+    max-width: 100%;
+    height: auto;
+  }
+    
+  @media only screen and (min-width: 768px) {
+    .detel {
+      margin-top: 5%;
+    }
+  }
+  

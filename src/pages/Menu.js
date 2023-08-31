@@ -9,13 +9,15 @@ function Menu() {
       <h1 className="menuTitle">Personal Projects</h1>
       <div className="menuList">
         {MenuList.map((menuItem, key) => {
-          return (
+          return ( 
+            
             <MenuItem
               key={key}
               image={menuItem.image}
               name={menuItem.name}
               price={menuItem.price}
-            />
+            /> 
+            
           );
         })}
       </div>

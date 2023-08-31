@@ -1,31 +1,28 @@
 .footer {
-    width: 100%;
-    height: 150px;
-    background-color: #121619;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
-    position: fixed;
-    bottom: 0;
-  }
-  
-  .socialMedia svg {
-    color: white;
-    margin: 20px;
-    font-size: 100px;
-    cursor: pointer;
-  }
-  
-  .footer p {
-    color: white; 
-  }
-  
-  .socials a {
-    margin-right: 20px; 
-    color: red;  
-    
-} 
-  
-  
+  width: 100%;
+  height: 150px;
+  background-color: #121619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  position: relative; /* Change this to "relative" */
+  bottom: 0;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 20px;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.footer p {
+  color: white;
+}
+
+.socials a {
+  margin-right: 20px;
+  color: red;
+}

@@ -10,7 +10,6 @@ function navbar() {
       <div className='rightside'>
         <Link to="/">Home</Link> 
         <Link to="/projects">Projects</Link>
-        <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link> 
         
 

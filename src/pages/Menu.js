@@ -8,18 +8,15 @@ function Menu() {
     <div className="menu">
       <h1 className="menuTitle">Personal Projects</h1>
       <div className="menuList">
-        {MenuList.map((menuItem, key) => {
-          return ( 
-            
-            <MenuItem
-              key={key}
-              image={menuItem.image}
-              name={menuItem.name}
-              price={menuItem.price}
-            /> 
-            
-          );
-        })}
+        {MenuList.map((menuItem, key) => (
+          <MenuItem
+            key={key}
+            image={menuItem.image}
+            name={menuItem.name}
+            price={menuItem.price}
+            link={menuItem.link} // Pass the link prop
+          />
+        ))}
       </div>
     </div>
   );

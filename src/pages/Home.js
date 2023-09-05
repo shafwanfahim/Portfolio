@@ -30,19 +30,22 @@ function Home() {
           <div className='experience'>
             <h3>Programming Languages</h3> 
             <p>
-              • C/C++
+              • C/C++ (Spatial Mapping Project, Data Structures and Algorithms Course)
             </p> 
             <p>
-              • Python
+              • Python (Spatial Mapping Project, Colour Detection Vehicle Project)
             </p>  
             <p>
-              • JavaScript
+              • JavaScript (Typing Assistant Project)
             </p> 
             <p>
-              • SQL
+              • SQL 
             </p> 
             <p>
               • Verilog
+            </p> 
+            <p>
+              • MATLAB
             </p>
           </div>
           <div className='experience'>
@@ -55,6 +58,9 @@ function Home() {
             </p>   
             <p>
               • HTML/CSS
+            </p>  
+            <p>
+              • Git Version Control
             </p> 
             <p>
               • AutoCAD

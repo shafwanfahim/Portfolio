@@ -5,13 +5,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px; /* Added padding for spacing */
+  padding: 0px; /* Added padding for spacing */ 
+  font-family: 'Montserrat', sans-serif;
 }
 
 .menu .menuTitle {
-  font-family: cursive;
   font-size: 36px; /* Reduced font size for responsiveness */
-  margin-bottom: 20px; /* Added margin for spacing */
+  margin-bottom: 20px; /* Added margin for spacing */ 
+  font-family: 'Montserrat', sans-serif; 
+  text-decoration: underline;
+
 }
 
 .menuList {
@@ -33,9 +36,7 @@
   cursor: pointer; /* Add cursor style for consistency */
 }
 
-.menuItem:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-}
+
 
 .menuItem div {
   border-top-left-radius: 15px;
@@ -63,3 +64,25 @@
 }
 
 /* Rest of your existing styles for .menu, .menuTitle, .menuList, and media queries */
+
+/* Rest of your existing styles */
+
+/* Style for the "Go to Link" button */
+.menuButton {
+  border: none;
+  border-radius: 20px; /* Adjust the border-radius to control the roundness */
+  background-color: black; /* Button background color */
+  color: gainsboro; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif; /* Use the same font as menu items */
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+  outline: none; /* Remove the button outline when clicked */
+}
+
+.menuButton:hover {
+  background-color: red; /* Change color on hover */
+}

@@ -1,95 +1,34 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-  }
-  
-  .logo img {
-    height: 40px;
-    width: auto;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: white;
-    font-weight: bold; 
-  } 
-  .navbar a{
-    color: white; 
-    margin: 20px; 
-font-family: 'Montserrat', sans-serif;
-  }
-  
-  .nav-link:hover {
-    color: #f39c12; /* Change to your preferred hover color */
-  }
-  
-  
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 15px 20px; /* Increased padding */
+}
 
+.logo img {
+  height: 40px; /* Increased logo height */
+  width: auto;
+}
 
-  .navbar #open {
-    padding-left: 0px;
-  }
-  .navbar #open img {
-    display: none;
-  }
-  
-  .navbar #close img {
-    display: inherit;
-  }
-  
-  .navbar #open .hiddenLinks {
-    display: inherit;
-    margin-left: 30px;
-  }
-  
-  .navbar #close .hiddenLinks {
-    display: none;
-  }
-  
-  .navbar #open a {
-    width: 70px;
-    margin: 5px;
-  }
-  @media only screen and (max-width: 900px) {
-    .navbar .rightSide a {
-      width: 70px;
-    }
-    .navbar .leftSide {
-      padding-left: 50px;
-    }
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .navbar .rightSide a {
-      display: none;
-    }
-  
-    .navbar .rightSide {
-      justify-content: flex-end;
-      padding-right: 50px;
-    }
-  
-    .navbar .rightSide button {
-      display: inherit;
-    }
-  }
-  
-  @media only screen and (min-width: 600px) {
-    .navbar .rightSide button {
-      display: none;
-    }
-  
-    .hiddenLinks {
-      display: none;
-    }
-  }
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px; /* Increased font size */
+}
+
+.navbar a {
+  color: white;
+  margin: 15px; /* Increased margin */
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 50px; /* Increased padding */
+}
+
+/* Rest of your CSS remains the same */
